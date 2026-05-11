@@ -237,6 +237,7 @@ h2.section-heading {
     border: 0;
     cursor: pointer;
     padding-inline: .5rem;
+    user-select: none;
 }
 .lb-prev-desktop { position: absolute; left: 1rem; }
 .lb-next-desktop { position: absolute; right: 1rem; }
@@ -281,6 +282,7 @@ h2.section-heading {
     border-radius: .375rem;
     padding: .75rem;
     transition: background .15s;
+    user-select: none;
 }
 .lb-nav-inline:hover { background: rgba(255,255,255,.2); }
 
