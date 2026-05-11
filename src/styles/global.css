@@ -316,7 +316,7 @@ h2.section-heading {
         }
         .lb-nav-inline:hover,
         .lb-nav-inline:active {
-            background: rgba(0,0,0,.85);
+            background: rgba(255,255,255,.2);
         }
     }
 }
