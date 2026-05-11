@@ -125,17 +125,6 @@ h1 {
 @media (max-width: 767px) {
     .divider { border-color: #e5e7eb; }
 }
-@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
-    .divider {
-        transform: scaleY(0.5);
-        transform-origin: top;
-    }
-}
-@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
-    .divider {
-        transform: scaleY(0.333);
-    }
-}
 
 /* ─── Section ────────────────────────────────────────────────── */
 .section {
