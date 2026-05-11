@@ -112,7 +112,7 @@ h1 {
     .divider { border-color: #27272a; }
 }
 @media (max-width: 767px) {
-    .grid-photo { border: 0; }
+    .divider { border-color: #e5e7eb; }
 }
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
     .divider {
@@ -184,6 +184,9 @@ h2.section-heading {
     .grid-photo { border-color: #27272a; }
 }
 .grid-photo:hover { border-color: #0048ff; }
+@media (max-width: 767px) {
+    .grid-photo { border: 0; border-radius: 0; }
+}
 
 .extra-photo { display: none; }
 
