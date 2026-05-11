@@ -8,6 +8,12 @@
 }
 
 /* ─── Base ───────────────────────────────────────────────────── */
+html {
+    background: #fff;
+}
+@media (prefers-color-scheme: dark) {
+    html { background: #09090b; }
+}
 body {
     margin: 0;
     font-family: ui-sans-serif, system-ui, sans-serif;
@@ -29,7 +35,7 @@ body {
 /* ─── Nav ────────────────────────────────────────────────────── */
 .nav {
     padding-block: 1.5rem;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 0;
 }
 @media (prefers-color-scheme: dark) {
     .nav { border-color: #27272a; }
