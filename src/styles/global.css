@@ -29,7 +29,10 @@ body {
 .container {
     max-width: 56rem;
     margin-inline: auto;
-    padding-inline: 1.5rem;
+    padding-inline: 1rem;
+}
+@media (min-width: 640px) {
+    .container { padding-inline: 1.5rem; }
 }
 
 /* ─── Nav ────────────────────────────────────────────────────── */
@@ -102,6 +105,7 @@ h1 {
     cursor: pointer;
     width: 100%;
     justify-content: center;
+    touch-action: manipulation;
 }
 @media (min-width: 768px) {
     .btn-primary { width: auto; }
@@ -160,12 +164,9 @@ h2.section-heading {
 /* ─── Photo Grid ─────────────────────────────────────────────── */
 .photo-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-block: 2rem 1.5rem;
-}
-@media (min-width: 640px) {
-    .photo-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 768px) {
     .photo-grid {
@@ -264,7 +265,7 @@ h2.section-heading {
 }
 
 .lb-img {
-    max-height: 80vh;
+    max-height: 80dvh;
     max-width: 90vw;
     border-radius: .75rem;
     object-fit: contain;
@@ -329,6 +330,10 @@ h2.section-heading {
     flex-direction: column;
     padding-top: .5rem;
     margin: 0;
+    border-top: 1px solid #e5e7eb;
+}
+@media (prefers-color-scheme: dark) {
+    .spec-item { border-color: #27272a; }
 }
 @media (min-width: 768px) {
     .spec-item { padding-top: 1rem; }
