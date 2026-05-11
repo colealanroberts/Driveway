@@ -280,6 +280,10 @@ h2.section-heading {
 @media (max-width: 767px) {
     .lb-toolbar .btn-primary {
         padding-block: 1rem;
+        box-sizing: border-box;
+    }
+    .lb-nav-inline {
+        box-sizing: border-box;
     }
 }
 
