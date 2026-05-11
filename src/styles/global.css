@@ -293,6 +293,9 @@ h2.section-heading {
     user-select: none;
 }
 .lb-nav-inline:hover { background: rgba(255,255,255,.2); }
+@media (max-width: 767px) {
+    .lb-nav-inline { background: rgba(255,255,255,.25); }
+}
 
 @media (min-width: 768px) {
     .lb-nav-inline { display: none; }
