@@ -311,12 +311,12 @@ h2.section-heading {
     .lb-nav-inline:active { background: rgba(255,255,255,.95); }
     @media (prefers-color-scheme: dark) {
         .lb-nav-inline {
-            background: rgba(255,255,255,.12);
+            background: rgba(255,255,255,.25);
             color: #fff;
         }
         .lb-nav-inline:hover,
         .lb-nav-inline:active {
-            background: rgba(255,255,255,.2);
+            background: rgba(255,255,255,.35);
         }
     }
 }
