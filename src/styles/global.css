@@ -218,6 +218,7 @@ h2.section-heading {
     background: rgba(0,0,0,.8);
     backdrop-filter: blur(4px);
     user-select: none;
+    -webkit-user-select: none;
 }
 .lightbox.is-open { display: flex; }
 
