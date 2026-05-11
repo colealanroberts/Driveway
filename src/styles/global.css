@@ -217,8 +217,6 @@ h2.section-heading {
     justify-content: center;
     background: rgba(0,0,0,.8);
     backdrop-filter: blur(4px);
-    user-select: none;
-    -webkit-user-select: none;
 }
 .lightbox.is-open { display: flex; }
 
@@ -232,8 +230,6 @@ h2.section-heading {
     background: transparent;
     border: 0;
     cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
 }
 
 .lb-nav {
@@ -248,7 +244,6 @@ h2.section-heading {
     cursor: pointer;
     padding: .75rem 1rem;
     user-select: none;
-    -webkit-user-select: none;
 }
 .lb-prev-desktop { position: absolute; left: 1rem; }
 .lb-next-desktop { position: absolute; right: 1rem; }
@@ -296,7 +291,6 @@ h2.section-heading {
     padding: .75rem;
     transition: background .15s;
     user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
 }
 .lb-nav-inline:hover { background: rgba(255,255,255,.2); }
