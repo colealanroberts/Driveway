@@ -277,6 +277,11 @@ h2.section-heading {
 .lb-toolbar .btn-primary {
     width: auto;
 }
+@media (max-width: 767px) {
+    .lb-toolbar .btn-primary {
+        padding-block: 1rem;
+    }
+}
 
 .lb-nav-inline {
     color: #fff;
