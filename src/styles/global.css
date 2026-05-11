@@ -181,7 +181,7 @@ h2.section-heading {
     height: auto;
     aspect-ratio: 1;
     object-fit: cover;
-    border-radius: 9px;
+    border-radius: 8px;
     border: 2px solid #e5e7eb;
     cursor: pointer;
     transition: border-color .2s;
@@ -191,7 +191,7 @@ h2.section-heading {
 }
 .grid-photo:hover { border-color: #0048ff; }
 @media (max-width: 767px) {
-    .grid-photo { border: 0; border-radius: 9px; }
+    .grid-photo { border: 0; border-radius: 8px; }
 }
 
 .extra-photo { display: none; }
