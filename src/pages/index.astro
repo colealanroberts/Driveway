@@ -46,7 +46,7 @@ const photos = [bmw, bmw, bmw, bmw, bmw, bmw];
                         <Image
                             src={photo}
                             alt={`Vehicle photo ${i + 1}`}
-                            class:list={["grid-photo", i >= 4 && "extra-photo"]}
+                            class:list={["grid-photo", i >= 3 && "extra-photo"]}
                             width={600}
                             height={600}
                             loading={i === 0 ? "eager" : "lazy"}
