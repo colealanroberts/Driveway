@@ -233,6 +233,7 @@ h2.section-heading {
     border: 0;
     cursor: pointer;
     user-select: none;
+    -webkit-user-select: none;
 }
 
 .lb-nav {
@@ -247,6 +248,7 @@ h2.section-heading {
     cursor: pointer;
     padding: .75rem 1rem;
     user-select: none;
+    -webkit-user-select: none;
 }
 .lb-prev-desktop { position: absolute; left: 1rem; }
 .lb-next-desktop { position: absolute; right: 1rem; }
@@ -294,6 +296,7 @@ h2.section-heading {
     padding: .75rem;
     transition: background .15s;
     user-select: none;
+    -webkit-user-select: none;
     touch-action: manipulation;
 }
 .lb-nav-inline:hover { background: rgba(255,255,255,.2); }
