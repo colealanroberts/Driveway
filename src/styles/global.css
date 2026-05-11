@@ -294,7 +294,7 @@ h2.section-heading {
 }
 .lb-nav-inline:hover { background: rgba(255,255,255,.2); }
 @media (max-width: 767px) {
-    .lb-nav-inline { background: rgba(255,255,255,.35); }
+    .lb-nav-inline { background: rgba(255,255,255,.55); }
 }
 
 @media (min-width: 768px) {
