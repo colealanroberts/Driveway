@@ -85,6 +85,8 @@ const photos = [bmw, bmw, bmw, bmw, bmw, bmw];
                     let photos: HTMLImageElement[] = [];
                     let current = 0;
 
+                    const viewport = document.querySelector('meta[name="viewport"]')!;
+
                     function openLightbox(index: number) {
                         photos = [...document.querySelectorAll<HTMLImageElement>('.grid-photo')];
                         current = index;
@@ -92,11 +94,13 @@ const photos = [bmw, bmw, bmw, bmw, bmw, bmw];
                         lbCount.textContent = `${current + 1} / ${photos.length}`;
                         lightbox.classList.add('is-open');
                         document.body.classList.add('no-scroll');
+                        viewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
                     }
 
                     function closeLightbox() {
                         lightbox.classList.remove('is-open');
                         document.body.classList.remove('no-scroll');
+                        viewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1');
                     }
 
                     function navigate(dir: number) {
