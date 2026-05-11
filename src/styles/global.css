@@ -111,21 +111,18 @@ h1 {
 @media (prefers-color-scheme: dark) {
     .divider { border-color: #27272a; }
 }
+@media (max-width: 767px) {
+    .grid-photo { border: 0; }
+}
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
     .divider {
         transform: scaleY(0.5);
         transform-origin: top;
     }
-    .grid-photo {
-        border-width: 0.5px;
-    }
 }
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
     .divider {
         transform: scaleY(0.333);
-    }
-    .grid-photo {
-        border-width: 0.333px;
     }
 }
 
